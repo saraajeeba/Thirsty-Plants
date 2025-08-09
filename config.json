@@ -1,0 +1,6 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 465,
+    "sender_email": "princesswonder08@gmail.com",
+    "sender_password": "rhxdniwbirxqphcp"
+}

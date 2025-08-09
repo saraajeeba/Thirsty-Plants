@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>🌧️ "Water your plants!" 🌧️</title>
+    <meta http-equiv="refresh" content="8">
+    <style>
+        body {
+            font-family: 'Comic Sans MS', Arial, sans-serif;
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+            text-align: center;
+            padding-top: 60px;
+        }
+        .status-box {
+            display: inline-block;
+            background: #fffbe7;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.2);
+            padding: 30px 50px;
+            margin-top: 20px;
+        }
+        .rain {
+            font-size: 2em;
+            color: #2196f3;
+        }
+        .not-rain {
+            font-size: 2em;
+            color: #43a047;
+        }
+        .last-updated {
+            font-size: 1em;
+            color: #888;
+            margin-bottom: 10px;
+        }
+        a {
+            display: inline-block;
+            margin-top: 25px;
+            text-decoration: none;
+            color: #ff4081;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #2196f3;
+        }
+        .corner-gif {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 120px;
+            z-index: 100;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <h1>🌧️ "മഴ പെയ്യുമ്പോഴാണോ ചെടി നനക്കുന്നത്?"
+ 🌧️</h1>
+    <div class="status-box">
+        <div class="last-updated">Last updated: {{ last }}</div>
+        {% if "Raining" in status %}
+            <div class="rain">💧 {{ status }} 💧</div>
+            <div style="font-size:1.2em;margin-top:10px;">Time to water your plants! 🌱</div>
+        {% else %}
+            <div class="not-rain">😎 {{ status }} 😎</div>
+            <div style="font-size:1.2em;margin-top:10px;">No rain detected. Relax! 💤</div>
+        {% endif %}
+        <a href="{{ url_for('index') }}">⬅️ Go back to input page</a>
+    </div>
+    <!-- Animated GIF in the bottom-right corner -->
+    <img class="corner-gif" src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" alt="Watering plants in rain GIF">
+</body>
+</html>
