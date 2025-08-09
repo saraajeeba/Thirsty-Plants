@@ -17,6 +17,7 @@
 Meet Thirsty-Plants — your plant’s personal weather spy! 🌱
 It watches the sky with a camera, detects rain, and shoots you an email so you never forget to water your leafy friends (or know when to skip it).
 Perfect for busy plant parents who can’t keep one eye on the clouds all day.
+View the project here- https://thirsty-plants.vercel.app/
 
 ### The Problem (that doesn't exist)
 Forgetting to water plants whenever its raining? No more of that now!
