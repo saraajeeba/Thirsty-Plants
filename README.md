@@ -44,7 +44,7 @@ pip install -opencv flask
 ![Screenshot1](https://github.com/saraajeeba/Thirsty-Plants/blob/main/s2.PNG)
 *Add caption explaining what this shows*
 
-![Screenshot2](https://github.com/saraajeeba/Thirsty-Plants/blob/main/ss2.PNG)
+![Screenshot2](https://github.com/saraajeeba/Thirsty-Plants/blob/main/ss3.PNG)
 *Add caption explaining what this shows*
 
 ## Team Contributions
