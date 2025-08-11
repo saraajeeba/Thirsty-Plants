@@ -5,13 +5,13 @@
 
 
 ## Basic Details
-### Team Name: [Shhh]
+### Team Name: Shhh!
 
 
 ### Team Members
 
-- Member 1: [sara Ajeeba] - [GEC Kozhikode]
-- Member 2: [Fathima Hindh] - [GEC Kozhikode]
+- Member 1: sara Ajeeba - GEC Kozhikode
+- Member 2: Fathima Hindh - GEC Kozhikode
 
 ### Project Description
 Meet Thirsty-Plants — your plant’s personal weather spy! 🌱
@@ -46,6 +46,10 @@ pip install -opencv flask
 
 ![Screenshot2](https://github.com/saraajeeba/Thirsty-Plants/blob/main/ss3.PNG)
 *Add caption explaining what this shows*
+
+# Demo video
+https://drive.google.com/file/d/1mo3z9NbdwKjZ1baFVYJq7_m_4DkZHg54/view?usp=drivesdk
+
 
 ## Team Contributions
 - Sara Ajeeba: Backend programmer
